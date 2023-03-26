@@ -20,6 +20,7 @@
 		616B24C629D051B700E42F07 /* ZKGradientViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616B24C529D051B700E42F07 /* ZKGradientViewExampleTests.swift */; };
 		616B24D029D051B700E42F07 /* ZKGradientViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616B24CF29D051B700E42F07 /* ZKGradientViewExampleUITests.swift */; };
 		616B24D229D051B700E42F07 /* ZKGradientViewExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616B24D129D051B700E42F07 /* ZKGradientViewExampleUITestsLaunchTests.swift */; };
+		616B24DD29D054F900E42F07 /* ZKGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616B24DC29D054F900E42F07 /* ZKGradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		616B24CB29D051B700E42F07 /* ZKGradientViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKGradientViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		616B24CF29D051B700E42F07 /* ZKGradientViewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZKGradientViewExampleUITests.swift; sourceTree = "<group>"; };
 		616B24D129D051B700E42F07 /* ZKGradientViewExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZKGradientViewExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		616B24DC29D054F900E42F07 /* ZKGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZKGradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			children = (
 				616B249129D050BE00E42F07 /* ZKGradientView.h */,
 				616B249229D050BE00E42F07 /* ZKGradientView.docc */,
+				616B24DC29D054F900E42F07 /* ZKGradientView.swift */,
 			);
 			path = ZKGradientView;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				616B249329D050BE00E42F07 /* ZKGradientView.docc in Sources */,
+				616B24DD29D054F900E42F07 /* ZKGradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,6 +639,7 @@
 		616B24A629D050BE00E42F07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -650,6 +655,7 @@
 		616B24A729D050BE00E42F07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
