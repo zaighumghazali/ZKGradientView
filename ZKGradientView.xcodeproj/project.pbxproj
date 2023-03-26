@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		616B249329D050BE00E42F07 /* ZKGradientView.docc in Sources */ = {isa = PBXBuildFile; fileRef = 616B249229D050BE00E42F07 /* ZKGradientView.docc */; };
+		616B249929D050BE00E42F07 /* ZKGradientView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616B248E29D050BE00E42F07 /* ZKGradientView.framework */; };
+		616B249E29D050BE00E42F07 /* ZKGradientViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616B249D29D050BE00E42F07 /* ZKGradientViewTests.swift */; };
+		616B249F29D050BE00E42F07 /* ZKGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 616B249129D050BE00E42F07 /* ZKGradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		616B24AF29D051B500E42F07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616B24AE29D051B500E42F07 /* AppDelegate.swift */; };
+		616B24B129D051B500E42F07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616B24B029D051B500E42F07 /* SceneDelegate.swift */; };
+		616B24B329D051B500E42F07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616B24B229D051B500E42F07 /* ViewController.swift */; };
+		616B24B629D051B500E42F07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 616B24B429D051B500E42F07 /* Main.storyboard */; };
+		616B24B829D051B700E42F07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 616B24B729D051B700E42F07 /* Assets.xcassets */; };
+		616B24BB29D051B700E42F07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 616B24B929D051B700E42F07 /* LaunchScreen.storyboard */; };
+		616B24C629D051B700E42F07 /* ZKGradientViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616B24C529D051B700E42F07 /* ZKGradientViewExampleTests.swift */; };
+		616B24D029D051B700E42F07 /* ZKGradientViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616B24CF29D051B700E42F07 /* ZKGradientViewExampleUITests.swift */; };
+		616B24D229D051B700E42F07 /* ZKGradientViewExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616B24D129D051B700E42F07 /* ZKGradientViewExampleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		616B249A29D050BE00E42F07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 616B248529D050BE00E42F07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 616B248D29D050BE00E42F07;
+			remoteInfo = ZKGradientView;
+		};
+		616B24C229D051B700E42F07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 616B248529D050BE00E42F07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 616B24AB29D051B500E42F07;
+			remoteInfo = ZKGradientViewExample;
+		};
+		616B24CC29D051B700E42F07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 616B248529D050BE00E42F07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 616B24AB29D051B500E42F07;
+			remoteInfo = ZKGradientViewExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		616B248E29D050BE00E42F07 /* ZKGradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZKGradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		616B249129D050BE00E42F07 /* ZKGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKGradientView.h; sourceTree = "<group>"; };
+		616B249229D050BE00E42F07 /* ZKGradientView.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ZKGradientView.docc; sourceTree = "<group>"; };
+		616B249829D050BE00E42F07 /* ZKGradientViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKGradientViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		616B249D29D050BE00E42F07 /* ZKGradientViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZKGradientViewTests.swift; sourceTree = "<group>"; };
+		616B24AC29D051B500E42F07 /* ZKGradientViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKGradientViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		616B24AE29D051B500E42F07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		616B24B029D051B500E42F07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		616B24B229D051B500E42F07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		616B24B529D051B500E42F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		616B24B729D051B700E42F07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		616B24BA29D051B700E42F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		616B24BC29D051B700E42F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		616B24C129D051B700E42F07 /* ZKGradientViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKGradientViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		616B24C529D051B700E42F07 /* ZKGradientViewExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZKGradientViewExampleTests.swift; sourceTree = "<group>"; };
+		616B24CB29D051B700E42F07 /* ZKGradientViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKGradientViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		616B24CF29D051B700E42F07 /* ZKGradientViewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZKGradientViewExampleUITests.swift; sourceTree = "<group>"; };
+		616B24D129D051B700E42F07 /* ZKGradientViewExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZKGradientViewExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		616B248B29D050BE00E42F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616B249529D050BE00E42F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616B249929D050BE00E42F07 /* ZKGradientView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616B24A929D051B500E42F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616B24BE29D051B700E42F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616B24C829D051B700E42F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		616B248429D050BE00E42F07 = {
+			isa = PBXGroup;
+			children = (
+				616B249029D050BE00E42F07 /* ZKGradientView */,
+				616B249C29D050BE00E42F07 /* ZKGradientViewTests */,
+				616B24AD29D051B500E42F07 /* ZKGradientViewExample */,
+				616B24C429D051B700E42F07 /* ZKGradientViewExampleTests */,
+				616B24CE29D051B700E42F07 /* ZKGradientViewExampleUITests */,
+				616B248F29D050BE00E42F07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		616B248F29D050BE00E42F07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				616B248E29D050BE00E42F07 /* ZKGradientView.framework */,
+				616B249829D050BE00E42F07 /* ZKGradientViewTests.xctest */,
+				616B24AC29D051B500E42F07 /* ZKGradientViewExample.app */,
+				616B24C129D051B700E42F07 /* ZKGradientViewExampleTests.xctest */,
+				616B24CB29D051B700E42F07 /* ZKGradientViewExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		616B249029D050BE00E42F07 /* ZKGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				616B249129D050BE00E42F07 /* ZKGradientView.h */,
+				616B249229D050BE00E42F07 /* ZKGradientView.docc */,
+			);
+			path = ZKGradientView;
+			sourceTree = "<group>";
+		};
+		616B249C29D050BE00E42F07 /* ZKGradientViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				616B249D29D050BE00E42F07 /* ZKGradientViewTests.swift */,
+			);
+			path = ZKGradientViewTests;
+			sourceTree = "<group>";
+		};
+		616B24AD29D051B500E42F07 /* ZKGradientViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				616B24AE29D051B500E42F07 /* AppDelegate.swift */,
+				616B24B029D051B500E42F07 /* SceneDelegate.swift */,
+				616B24B229D051B500E42F07 /* ViewController.swift */,
+				616B24B429D051B500E42F07 /* Main.storyboard */,
+				616B24B729D051B700E42F07 /* Assets.xcassets */,
+				616B24B929D051B700E42F07 /* LaunchScreen.storyboard */,
+				616B24BC29D051B700E42F07 /* Info.plist */,
+			);
+			path = ZKGradientViewExample;
+			sourceTree = "<group>";
+		};
+		616B24C429D051B700E42F07 /* ZKGradientViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				616B24C529D051B700E42F07 /* ZKGradientViewExampleTests.swift */,
+			);
+			path = ZKGradientViewExampleTests;
+			sourceTree = "<group>";
+		};
+		616B24CE29D051B700E42F07 /* ZKGradientViewExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				616B24CF29D051B700E42F07 /* ZKGradientViewExampleUITests.swift */,
+				616B24D129D051B700E42F07 /* ZKGradientViewExampleUITestsLaunchTests.swift */,
+			);
+			path = ZKGradientViewExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		616B248929D050BE00E42F07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616B249F29D050BE00E42F07 /* ZKGradientView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		616B248D29D050BE00E42F07 /* ZKGradientView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 616B24A229D050BE00E42F07 /* Build configuration list for PBXNativeTarget "ZKGradientView" */;
+			buildPhases = (
+				616B248929D050BE00E42F07 /* Headers */,
+				616B248A29D050BE00E42F07 /* Sources */,
+				616B248B29D050BE00E42F07 /* Frameworks */,
+				616B248C29D050BE00E42F07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKGradientView;
+			productName = ZKGradientView;
+			productReference = 616B248E29D050BE00E42F07 /* ZKGradientView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		616B249729D050BE00E42F07 /* ZKGradientViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 616B24A529D050BE00E42F07 /* Build configuration list for PBXNativeTarget "ZKGradientViewTests" */;
+			buildPhases = (
+				616B249429D050BE00E42F07 /* Sources */,
+				616B249529D050BE00E42F07 /* Frameworks */,
+				616B249629D050BE00E42F07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				616B249B29D050BE00E42F07 /* PBXTargetDependency */,
+			);
+			name = ZKGradientViewTests;
+			productName = ZKGradientViewTests;
+			productReference = 616B249829D050BE00E42F07 /* ZKGradientViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		616B24AB29D051B500E42F07 /* ZKGradientViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 616B24D329D051B700E42F07 /* Build configuration list for PBXNativeTarget "ZKGradientViewExample" */;
+			buildPhases = (
+				616B24A829D051B500E42F07 /* Sources */,
+				616B24A929D051B500E42F07 /* Frameworks */,
+				616B24AA29D051B500E42F07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKGradientViewExample;
+			productName = ZKGradientViewExample;
+			productReference = 616B24AC29D051B500E42F07 /* ZKGradientViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		616B24C029D051B700E42F07 /* ZKGradientViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 616B24D629D051B700E42F07 /* Build configuration list for PBXNativeTarget "ZKGradientViewExampleTests" */;
+			buildPhases = (
+				616B24BD29D051B700E42F07 /* Sources */,
+				616B24BE29D051B700E42F07 /* Frameworks */,
+				616B24BF29D051B700E42F07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				616B24C329D051B700E42F07 /* PBXTargetDependency */,
+			);
+			name = ZKGradientViewExampleTests;
+			productName = ZKGradientViewExampleTests;
+			productReference = 616B24C129D051B700E42F07 /* ZKGradientViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		616B24CA29D051B700E42F07 /* ZKGradientViewExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 616B24D929D051B700E42F07 /* Build configuration list for PBXNativeTarget "ZKGradientViewExampleUITests" */;
+			buildPhases = (
+				616B24C729D051B700E42F07 /* Sources */,
+				616B24C829D051B700E42F07 /* Frameworks */,
+				616B24C929D051B700E42F07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				616B24CD29D051B700E42F07 /* PBXTargetDependency */,
+			);
+			name = ZKGradientViewExampleUITests;
+			productName = ZKGradientViewExampleUITests;
+			productReference = 616B24CB29D051B700E42F07 /* ZKGradientViewExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		616B248529D050BE00E42F07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					616B248D29D050BE00E42F07 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					616B249729D050BE00E42F07 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					616B24AB29D051B500E42F07 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					616B24C029D051B700E42F07 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 616B24AB29D051B500E42F07;
+					};
+					616B24CA29D051B700E42F07 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 616B24AB29D051B500E42F07;
+					};
+				};
+			};
+			buildConfigurationList = 616B248829D050BE00E42F07 /* Build configuration list for PBXProject "ZKGradientView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 616B248429D050BE00E42F07;
+			productRefGroup = 616B248F29D050BE00E42F07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				616B248D29D050BE00E42F07 /* ZKGradientView */,
+				616B249729D050BE00E42F07 /* ZKGradientViewTests */,
+				616B24AB29D051B500E42F07 /* ZKGradientViewExample */,
+				616B24C029D051B700E42F07 /* ZKGradientViewExampleTests */,
+				616B24CA29D051B700E42F07 /* ZKGradientViewExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		616B248C29D050BE00E42F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616B249629D050BE00E42F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616B24AA29D051B500E42F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616B24BB29D051B700E42F07 /* LaunchScreen.storyboard in Resources */,
+				616B24B829D051B700E42F07 /* Assets.xcassets in Resources */,
+				616B24B629D051B500E42F07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616B24BF29D051B700E42F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616B24C929D051B700E42F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		616B248A29D050BE00E42F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616B249329D050BE00E42F07 /* ZKGradientView.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616B249429D050BE00E42F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616B249E29D050BE00E42F07 /* ZKGradientViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616B24A829D051B500E42F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616B24B329D051B500E42F07 /* ViewController.swift in Sources */,
+				616B24AF29D051B500E42F07 /* AppDelegate.swift in Sources */,
+				616B24B129D051B500E42F07 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616B24BD29D051B700E42F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616B24C629D051B700E42F07 /* ZKGradientViewExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616B24C729D051B700E42F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616B24D029D051B700E42F07 /* ZKGradientViewExampleUITests.swift in Sources */,
+				616B24D229D051B700E42F07 /* ZKGradientViewExampleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		616B249B29D050BE00E42F07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 616B248D29D050BE00E42F07 /* ZKGradientView */;
+			targetProxy = 616B249A29D050BE00E42F07 /* PBXContainerItemProxy */;
+		};
+		616B24C329D051B700E42F07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 616B24AB29D051B500E42F07 /* ZKGradientViewExample */;
+			targetProxy = 616B24C229D051B700E42F07 /* PBXContainerItemProxy */;
+		};
+		616B24CD29D051B700E42F07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 616B24AB29D051B500E42F07 /* ZKGradientViewExample */;
+			targetProxy = 616B24CC29D051B700E42F07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		616B24B429D051B500E42F07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				616B24B529D051B500E42F07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		616B24B929D051B700E42F07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				616B24BA29D051B700E42F07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		616B24A029D050BE00E42F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		616B24A129D050BE00E42F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		616B24A329D050BE00E42F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arbisoft.tipcalculator.ZKGradientView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		616B24A429D050BE00E42F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arbisoft.tipcalculator.ZKGradientView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		616B24A629D050BE00E42F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arbisoft.tipcalculator.ZKGradientViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		616B24A729D050BE00E42F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arbisoft.tipcalculator.ZKGradientViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		616B24D429D051B700E42F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZKGradientViewExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arbisoft.tipcalculator.ZKGradientViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		616B24D529D051B700E42F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZKGradientViewExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arbisoft.tipcalculator.ZKGradientViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		616B24D729D051B700E42F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arbisoft.tipcalculator.ZKGradientViewExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKGradientViewExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZKGradientViewExample";
+			};
+			name = Debug;
+		};
+		616B24D829D051B700E42F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arbisoft.tipcalculator.ZKGradientViewExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKGradientViewExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZKGradientViewExample";
+			};
+			name = Release;
+		};
+		616B24DA29D051B700E42F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arbisoft.tipcalculator.ZKGradientViewExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZKGradientViewExample;
+			};
+			name = Debug;
+		};
+		616B24DB29D051B700E42F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arbisoft.tipcalculator.ZKGradientViewExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZKGradientViewExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		616B248829D050BE00E42F07 /* Build configuration list for PBXProject "ZKGradientView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616B24A029D050BE00E42F07 /* Debug */,
+				616B24A129D050BE00E42F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		616B24A229D050BE00E42F07 /* Build configuration list for PBXNativeTarget "ZKGradientView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616B24A329D050BE00E42F07 /* Debug */,
+				616B24A429D050BE00E42F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		616B24A529D050BE00E42F07 /* Build configuration list for PBXNativeTarget "ZKGradientViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616B24A629D050BE00E42F07 /* Debug */,
+				616B24A729D050BE00E42F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		616B24D329D051B700E42F07 /* Build configuration list for PBXNativeTarget "ZKGradientViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616B24D429D051B700E42F07 /* Debug */,
+				616B24D529D051B700E42F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		616B24D629D051B700E42F07 /* Build configuration list for PBXNativeTarget "ZKGradientViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616B24D729D051B700E42F07 /* Debug */,
+				616B24D829D051B700E42F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		616B24D929D051B700E42F07 /* Build configuration list for PBXNativeTarget "ZKGradientViewExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616B24DA29D051B700E42F07 /* Debug */,
+				616B24DB29D051B700E42F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 616B248529D050BE00E42F07 /* Project object */;
+}
