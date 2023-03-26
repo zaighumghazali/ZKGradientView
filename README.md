@@ -10,7 +10,7 @@ ZKGradientView is custom view on which we can apply gradient background color. Y
 
 ### CocoaPods
 
-Install my-project with cocoapods by adding the following line in your pod file.
+Install ZKGradientView with cocoapods by adding the following line in your pod file.
 ````bash
   pod 'ZKGradientView'
 ````
